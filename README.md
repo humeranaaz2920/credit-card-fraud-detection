@@ -40,5 +40,6 @@ Streamlit opens the application in your browser. Use the sidebar to navigate bet
 
 For batch predictions, upload a CSV with the same feature columns as the training data. The `Class` column is optional and is never used as a prediction feature.
 ## Application Screenshot
+## Application Screenshot
 
 ![Credit Card Fraud Detection App](app-screenshot.png)
