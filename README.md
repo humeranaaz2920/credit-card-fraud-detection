@@ -39,3 +39,6 @@ Streamlit opens the application in your browser. Use the sidebar to navigate bet
 `train.py` uses an 80/20 stratified train-test split and a Scikit-learn Pipeline containing `StandardScaler` and Logistic Regression with `class_weight="balanced"`. The scaler and model are fitted using training rows only. `app.py` loads and uses that same saved pipeline for individual and batch predictions.
 
 For batch predictions, upload a CSV with the same feature columns as the training data. The `Class` column is optional and is never used as a prediction feature.
+## Application Screenshot
+
+![Credit Card Fraud Detection App](app-screenshot.png)
